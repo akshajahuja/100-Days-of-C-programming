@@ -1,0 +1,2 @@
+#include <stdio.h>
+int main(){unsigned int n;int b[32],i=0;scanf("%u",&n);if(n==0){printf("0");return 0;}while(n){b[i++]=n%2;n/=2;}while(i--)printf("%d",b[i]);return 0;}
